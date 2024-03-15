@@ -2,7 +2,7 @@
 
 int main(){
     using namespace web;
-    server serve=server("127.0.0.1",8080);
+    server serve=server("0.0.0.0",8080);
     serve.beginlisten();
     return 0;
 }
